@@ -17,7 +17,7 @@ zip の中にも、この説明と同じ内容の `README.txt` が入ってい�
 
 ## 動作環境
 
-- Windows 11、または macOS (Mac は動作確認中です)
+- Windows 11、または macOS
 - Google Chrome (最新版)。ほかのブラウザは対象外です
 - インターネット接続 (Java の実行環境 CheerpJ と、Qiita の教材を読み込むため)
 

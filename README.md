@@ -16,8 +16,8 @@ zip の中にも、この説明と同じ内容の `README.txt` が入ってい�
 
 ## 動作環境
 
-- Windows 10 / 11 (PowerShell は Windows に最初から入っているものを使います)
-- Google Chrome または Microsoft Edge (最新版)
+- Windows 11 (PowerShell は Windows に最初から入っているものを使います)
+- Google Chrome (最新版)
 - インターネット接続 (Java の実行環境 CheerpJ と、Qiita の教材を読み込むため)
 
 ## 使い方

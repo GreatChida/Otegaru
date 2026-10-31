@@ -12,6 +12,7 @@ JDK も Eclipse も、管理者権限も要りません。
 ## ダウンロード
 
 [dist/OtegaruJava.zip](https://github.com/GreatChida/Otegaru/raw/main/dist/OtegaruJava.zip) をダウンロードしてください (約 3.5MB)。
+zip の中にも、この説明と同じ内容の `README.txt` が入っています。
 
 ## 動作環境
 

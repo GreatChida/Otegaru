@@ -5,14 +5,14 @@
 zip を展開して start.bat (Mac は start.command) をダブルクリックするだけで、ブラウザに IDE が開きます。
 JDK も Eclipse も、管理者権限も要りません。
 
-教材には Qiita の「【Java入門】目次 ( https://qiita.com/chida0818/items/1f0f457d575d4a675c16 )」シリーズを使います。
+教材には Qiita の「【Java入門】目次 ( https://qiita.com/chida0818/items/1f0f457d575d4a675c16 )」「【HTML入門】目次 ( https://qiita.com/chida0818/items/4efc23bf7222b2377b2d )」「【DB入門】目次 ( https://qiita.com/chida0818/items/d1fbd989a20e8eed1cbc )」シリーズを使います。
 右側の「レッスン」に教材の本文が表示され、教材のコードをエディターに反映したり、実行結果を教材と比べたりできます。
 
 ※ テスト版です。 動作の確認中のため、内容は予告なく変わることがあります。
 
 【ダウンロード】
 
-dist/OtegaruJava.zip ( https://github.com/GreatChida/Otegaru/raw/main/dist/OtegaruJava.zip ) をダウンロードしてください (約 3.5MB)。Windows と Mac で同じ zip を使います。
+dist/OtegaruJava.zip ( https://github.com/GreatChida/Otegaru/raw/main/dist/OtegaruJava.zip ) をダウンロードしてください (約 6.3MB)。Windows と Mac で同じ zip を使います。
 これまでの版は Releases ( https://github.com/GreatChida/Otegaru/releases ) にあります。
 zip の中にも、この説明と同じ内容の README.txt が入っています。
 
@@ -127,4 +127,4 @@ Mac では表の Ctrl を ⌘ に読み替えてください (補完の Control 
 ・ECJ (Eclipse Compiler for Java) ( https://github.com/eclipse-jdt/eclipse.jdt.core ) 3.45.0: Eclipse Public License 2.0。ソース・コードは Maven Central ( https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/3.45.0/ ) から入手できます。
 ・CodeMirror ( https://codemirror.net/5/ ) 5.65.16: MIT License
 ・marked ( https://marked.js.org/ ) 12.0.2: MIT License
-・教材本文: Qiita「【Java入門】 ( https://qiita.com/chida0818/items/1f0f457d575d4a675c16 )」シリーズ (chida0818) の記事です。
+・教材本文: Qiita「【Java入門】 ( https://qiita.com/chida0818/items/1f0f457d575d4a675c16 )」「【HTML入門】 ( https://qiita.com/chida0818/items/4efc23bf7222b2377b2d )」「【DB入門】 ( https://qiita.com/chida0818/items/d1fbd989a20e8eed1cbc )」シリーズ (chida0818) の記事です。

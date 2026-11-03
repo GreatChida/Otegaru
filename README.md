@@ -15,6 +15,11 @@ JDK も Eclipse も、管理者権限も要りません。
 これまでの版は [Releases](https://github.com/GreatChida/Otegaru/releases) にあります。
 zip の中にも、この説明と同じ内容の `README.txt` が入っています。
 
+## Eclipse のプラグイン (テスト版)
+
+本物の Eclipse (Pleiades 2026-06) の中で、Qiita の「Java入門」「HTML入門」「Spring入門」を Qiita と同じ見た目で読み、コードの反映や実行結果の比較ができるプラグインです。
+インストール方法は [こちら](https://greatchida.github.io/Otegaru/eclipse/) を見てください。
+
 ## 動作環境
 
 - Windows 11、または macOS

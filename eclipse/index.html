@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>お手軽 Eclipse プラグイン</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; line-height: 1.8; max-width: 760px; margin: 0 auto; padding: 16px; color: #222; }
+  h1 { font-size: 1.5em; } h2 { font-size: 1.2em; margin-top: 2em; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  code { background: #f1f1f1; padding: 1px 5px; border-radius: 3px; }
+  .url { background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 6px; padding: 8px 12px; font-family: Consolas, monospace; word-break: break-all; }
+  .warn { border-left: 4px solid #f0ad4e; background: #fdf6ea; padding: 6px 12px; }
+</style>
+</head>
+<body>
+<h1>お手軽 Eclipse プラグイン (テスト版)</h1>
+<p>Eclipse の中で、Qiita の入門シリーズ (<b>Java入門・HTML入門・Spring入門</b>) を Qiita と同じ見た目で読めるプラグインです。
+教材のコードをワンクリックでエディターに反映したり、実行結果を教材と比べたりできます。</p>
+
+<h2>動作する環境</h2>
+<ul>
+  <li>Pleiades 2026-06 (Eclipse 4.40、Windows 64bit)。Java 21 以上で動く Eclipse が必要です。</li>
+  <li>Spring入門は、Spring Tools (Pleiades に入っています) で作った Spring Boot のプロジェクトに反映します。</li>
+  <li>インターネットに接続できること (記事を Qiita から取得します)。</li>
+</ul>
+
+<h2>インストール</h2>
+<p>更新サイトの URL は次のとおりです。</p>
+<p class="url">https://greatchida.github.io/Otegaru/eclipse/</p>
+<div class="warn">
+  <b>大事な注意</b>: 手順 4 で、下の方の「<b>必須ソフトウェアを検索するためにインストール中にすべての更新サイトに接続する</b>」の<b>チェックを外してください</b>。
+  チェックしたままだと、Eclipse の標準の部品の新しい版まで一緒に入り、Eclipse が起動しなくなることがあります。
+  不安なときは、Eclipse のフォルダーをコピーして、コピーのほうで試してください。
+</div>
+<ol>
+  <li>Eclipse のメニューから <b>ヘルプ → 新規ソフトウェアのインストール...</b> を選びます。</li>
+  <li><b>作業対象</b> の右の <b>追加(A)...</b> を押し、名前に「お手軽」、場所に上の URL を入力して <b>追加</b> を押します。</li>
+  <li>一覧に出る <b>お手軽 Eclipse</b> にチェックを入れます。</li>
+  <li>画面の下の方の「すべての更新サイトに接続する」の<b>チェックを外して</b>、<b>次へ</b> を押します。</li>
+  <li>「インストールの詳細」で、インストールされるのが<b>お手軽 Eclipse だけ</b>であることを確認して、<b>次へ</b> を押し、使用条件に同意して<b>完了</b>を押します。</li>
+  <li>「Trust Artifacts」の画面が出ます。表の <b>Unsigned</b> (このプラグインは署名していません) にチェックを入れて、<b>選択項目を信頼(T)</b> を押します。
+      下の一覧に logback や asm などの<b>ほかの部品が出ているときは、信頼せずにキャンセル</b>してください。</li>
+  <li>再起動をすすめられるので、<b>今すぐ再起動</b> を押します。</li>
+</ol>
+
+<h2>使い方</h2>
+<ol>
+  <li><b>ウィンドウ → ビューの表示 → その他...</b> を開き、「お手軽」の中の <b>お手軽 教材</b> を選んで <b>開く</b> を押します。</li>
+  <li>上の欄で、教材 (Java入門・HTML入門・Spring入門) と章を選びます。<b>戻る</b>、<b>&lt;&lt;</b>、<b>&gt;&gt;</b> で章を移動できます。</li>
+  <li>コードブロックの <b>コピー</b> / <b>エディターに反映</b> を使います。反映するには、教材と同じ名前のプロジェクトが必要です (Java入門は <code>java</code>、HTML入門は <code>html</code>)。</li>
+  <li><b>Qiita</b> を押すと、その章の Qiita の記事をブラウザで開きます。</li>
+</ol>
+
+<h2>アンインストール</h2>
+<p><b>ヘルプ → Eclipse について → インストール詳細</b> で「お手軽 Eclipse」を選び、<b>アンインストール...</b> を押します。</p>
+
+<p style="margin-top:2em;color:#666">お手軽Java: <a href="https://github.com/GreatChida/Otegaru">GreatChida/Otegaru</a></p>
+</body>
+</html>
